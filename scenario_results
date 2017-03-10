@@ -72,6 +72,6 @@ for (i in 1:length(all_paths))
   #print(scenario)
 }
 
-## THIS PART WRITES IT ALL TO A .csv FILE
+## THIS PART WRITES IT ALL TO A .xlsx FILE
 write.xlsx(alltimesteps, file="results.xlsx", sheetName="alltimesteps", row.names = FALSE)
 write.xlsx(fiveyearmean, file="results.xlsx", sheetName="fiveyearmean", row.names = FALSE, append=TRUE)
